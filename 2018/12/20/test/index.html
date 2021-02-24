@@ -10,7 +10,8 @@
 
     <!--Description-->
     
-        <meta name="description" content="Just a test.">
+        <meta name="description" content="Figure 1. The left hand is extended with three added sticks, while the right hand is presented as normal.
+ClaimWe propose by enabling beginner players">
     
 
     <!--Author-->
@@ -118,7 +119,18 @@
 
 
 <!-- Content -->
-<p>Just a test.　　</p>
+<p><img src="/images/extend.png" alt="extend your hand" width="50%" height="50%" center=""><br>Figure 1. The left hand is extended with three added sticks, while the right hand is presented as normal.</p>
+<p><strong>Claim</strong><br>We propose by enabling beginner players to control their hand size and finger length, beginner players can 1) reach more pitches and 2) complete playing some piece of music within less time.</p>
+<p><strong>Status: Completed</strong><br>According to the supervisor’s comment, this project faces an old problem proposed by previous research. Therefore, this project was completed as a coursework.</p>
+<hr>
+<p><strong>INTRODUCTION</strong><br>While learning to play piano, beginner players can be stucked by their hand capacity to make further progress. For example, players born with small hand size can feel it impossible to (stretch their fingers to) reach one octave. In that situation, rapidly moving the hand is a solution. However, beginner players can fail to catch up with the required tempo because they are not skilled enough.<br>Similar problems also exists in tabla. Tabla is a traditional indian drum, and it also requires players to use their fingers to hit around the drumhead. What is different is that players should move their hands extremely fast to establish the rhythm. Such a situation is both challenging and tiring for an unskilled beginner player.<br>We propose, if beginner players can control their hand size and finger length, the playing of the two aforementioned instruments should be easier in 1) reaching more pitches from a fixed hand position and in 2) complete some piece of music within less time. We also expect that beginner players can feel more relaxed at playing using this technology because they are augmented by it.</p>
+<p><strong>SYSTEM</strong><br>Using Leap Motion as the main hardware, we developed two approaches to extend your hands. The first approach is changing the hand size and the second one is changing the finger length.<br><strong><em>Change the hand size</em></strong><br>This approach was developed by my teammate.<br>As shown in the figure below, the upper part shows the representation of your normal hand size, which only convers three pitches; While in the lower part, our approach enlarges your hand size, and you can reach four pitches with the same hand position.<br><img src="/images/handsize.png" alt="change your hand size" width="50%" height="50%" center=""><br>Figure 2: Change the hand size.<br><strong><em>Change the finger length</em></strong><br>This approach was developed by me. We present it by a video.<br>In the first few seconds, the normal length of your finger can only reach as far as the gray objects; while in the last few seconds, with extended fingers, you can now reach as far as the white objects with the same hand position.</p>
+<p><video width="50%" height="400" controls><br>    <source src="/images/tabla.mp4" type="video/mp4"><br></video><br><br></p>
+<p><strong>TEST</strong><br>We invited one participant to test with our system.<br>In the test, we cared about how fast the participant can complete the same task with and without the extended hand.<br>Since our survey was not enough to tell which approach was better, we did the piano task with the approach that changes the hand size and the tabla task with the approach that changes the finger length. To verify the task as simple as possible, we required the participant to only use the left hand to play. The participant controlled the change with her right hand.<br><strong><em>Results</em></strong><br>In piano playing, the completion time with the extended hand was not significantly shorter than that without the extended hand.<br><img src="/images/piano.png" alt="piano compare" width="50%" height="50%" center=""><br>Figure 3. Results of completion time in piano.</p>
+<p>While in tabla playing, we can see that the completion time with the extended hand was much shorter than that without the extended hand.<br><img src="/images/tabla.png" alt="tabla compare" width="50%" height="50%" center=""><br>Figure 4. Results of completion time in tabla.</p>
+<p><strong>BESIDES</strong><br>Well, Leap Motion is not a very intuitive interface. The tracking loss happens when your hands go outside of the steady tracking area, which lead to your virtual hand flying in the sky.<br>So we did something to constrain users’ operation area. We built frames using chopsticks!<br><img src="/images/frame.png" alt="frame" width="40%" height="50%" center=""><br>Figure 5: The frame we built.<br>Ugly it may looks, by telling the participant to operate within the frame area, the tracking loss never happened during our test.</p>
+<hr>
+<p>Thank you for reading this far!☺︎<br>You may be interested in the supervisor’s comment.<br>Well, the comment was like that in 1996 researchers already proposed that this kind of manipulation would negatively influence users’ presense and immersion. Such disadvantages are not encouraging for learning.<br>The supervisor also said that the chopsticks on the hand was ugly (as shown in the top figure of this post)…<br>Yes, I agree with all his comments:).</p>
 
 
 <!-- Tags -->
